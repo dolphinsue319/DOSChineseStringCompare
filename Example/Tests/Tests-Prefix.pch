@@ -2,7 +2,9 @@
 
 #ifdef __OBJC__
 
-  @import Specta;
-  @import Expecta;
+#import "Specta.h"
+#import "Expecta.h"
+//  @import Specta;
+//  @import Expecta;
 
 #endif
