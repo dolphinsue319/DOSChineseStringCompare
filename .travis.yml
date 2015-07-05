@@ -13,7 +13,7 @@ xcode_scheme: Tests
 # - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-script:
-- set -o pipefail && xcodebuild test -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+#script:
+#- set -o pipefail && xcodebuild test -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
 
