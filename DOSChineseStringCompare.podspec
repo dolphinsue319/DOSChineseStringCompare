@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "DOSChineseStringCompare"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "A short description of DOSChineseStringCompare."
   s.description      = "這是個對中文字排序的 pod"
   s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "dolphinsue319" => "dolphinsue@mail2000.com.tw" }
-  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.0" }
+  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
