@@ -11,26 +11,21 @@ Pod::Spec.new do |s|
   s.name             = "DOSChineseStringCompare"
   s.version          = "0.1.0"
   s.summary          = "A short description of DOSChineseStringCompare."
-  s.description      = <<-DESC
-                       An optional longer description of DOSChineseStringCompare
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DOSChineseStringCompare"
+  s.description      = "這是個對中文字排序的 pod"
+  s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "dolphinsue319" => "dolphinsue@mail2000.com.tw" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DOSChineseStringCompare.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DOSChineseStringCompare' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'DOSChineseStringCompare' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
