@@ -9,9 +9,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "DOSChineseStringCompare"
-  s.version          = "1.0.0"
-  s.summary          = "A short description of DOSChineseStringCompare."
-  s.description      = "這是個對中文字排序的 pod"
+  s.version          = "1.0.1"
+  s.summary          = "這是個對中文字排序的 pod"
+  s.description      = "這是個對中文字排序的 pod，可以依照注音、筆畫、拼音或 Unihan 碼排序"
   s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
