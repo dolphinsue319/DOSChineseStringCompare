@@ -5,9 +5,9 @@
 language: objective-c
 xcode_workspace: Example/DOSChineseStringCompare.xcodeproj
 xcode_scheme: Tests
+podfile: Example/Podfile
 
 cache: cocoapods
-podfile: Example/Podfile
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
@@ -15,5 +15,5 @@ before_install:
 script:
 - xctool -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iPhonesimulator -destination 'platform=iOS Simulator,name=iPhone6'
   - xctool test -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
-
+- pod lib lint --quick
 
