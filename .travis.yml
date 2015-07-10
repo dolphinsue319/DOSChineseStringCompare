@@ -15,5 +15,5 @@ before_install:
 - pod install
 - cd ..
 script:
-- xctool -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone6'
+- xctool -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iphonesimulator test'
 
