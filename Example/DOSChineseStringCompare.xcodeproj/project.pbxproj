@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A2276101B3C42FF00E52B25 /* NSString+DOSChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22760F1B3C42FF00E52B25 /* NSString+DOSChineseString.m */; };
+		5BFB452C4029F11C6A06A335 /* Pods_DOSChineseStringCompare_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EE9E75CA06F2CC7AC74BC1 /* Pods_DOSChineseStringCompare_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		72EAF029BE963EC8331B6E55 /* libPods-DOSChineseStringCompare_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EDA5A4E14101D0B419BC09 /* libPods-DOSChineseStringCompare_Example.a */; };
+		742A0297EF04B4E971044F4D /* Pods_DOSChineseStringCompare_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F26B1AE6EC4BB5360DE09A /* Pods_DOSChineseStringCompare_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		87E3DFE42F7D5DB12FAD107F /* libPods-DOSChineseStringCompare_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFC491E1EEFDBA1B4DE77AF /* libPods-DOSChineseStringCompare_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F26B1AE6EC4BB5360DE09A /* Pods_DOSChineseStringCompare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOSChineseStringCompare_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B04B0AD26C2A0570428A9F5 /* Pods-DOSChineseStringCompare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOSChineseStringCompare_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOSChineseStringCompare_Tests/Pods-DOSChineseStringCompare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		34C0DD53C0797EC0818BCC55 /* Pods-DOSChineseStringCompare_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOSChineseStringCompare_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOSChineseStringCompare_Example/Pods-DOSChineseStringCompare_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4216D603A180CAC4DB5C0503 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -65,10 +66,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6695E4D1ECA06205DF421BC1 /* Pods-DOSChineseStringCompare_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOSChineseStringCompare_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOSChineseStringCompare_Example/Pods-DOSChineseStringCompare_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6BFC491E1EEFDBA1B4DE77AF /* libPods-DOSChineseStringCompare_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DOSChineseStringCompare_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B2D54A7C0AF98AAC81676F53 /* DOSChineseStringCompare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DOSChineseStringCompare.podspec; path = ../DOSChineseStringCompare.podspec; sourceTree = "<group>"; };
-		D2EDA5A4E14101D0B419BC09 /* libPods-DOSChineseStringCompare_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DOSChineseStringCompare_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EE9E75CA06F2CC7AC74BC1 /* Pods_DOSChineseStringCompare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOSChineseStringCompare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F646FD14A09D4C837D60A7BB /* Pods-DOSChineseStringCompare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOSChineseStringCompare_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOSChineseStringCompare_Tests/Pods-DOSChineseStringCompare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				72EAF029BE963EC8331B6E55 /* libPods-DOSChineseStringCompare_Example.a in Frameworks */,
+				742A0297EF04B4E971044F4D /* Pods_DOSChineseStringCompare_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				87E3DFE42F7D5DB12FAD107F /* libPods-DOSChineseStringCompare_Tests.a in Frameworks */,
+				5BFB452C4029F11C6A06A335 /* Pods_DOSChineseStringCompare_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +144,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D2EDA5A4E14101D0B419BC09 /* libPods-DOSChineseStringCompare_Example.a */,
-				6BFC491E1EEFDBA1B4DE77AF /* libPods-DOSChineseStringCompare_Tests.a */,
+				01F26B1AE6EC4BB5360DE09A /* Pods_DOSChineseStringCompare_Example.framework */,
+				B8EE9E75CA06F2CC7AC74BC1 /* Pods_DOSChineseStringCompare_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +230,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				53B63D43F8A42C556BC28B38 /* Copy Pods Resources */,
+				909312B7FBDD8737B9EECCDB /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +250,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				BDBD10E589DD9C30CAF69693 /* Copy Pods Resources */,
+				0893D7A432417C6EB07323B0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +318,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0893D7A432417C6EB07323B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOSChineseStringCompare_Tests/Pods-DOSChineseStringCompare_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		53B63D43F8A42C556BC28B38 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +361,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		909312B7FBDD8737B9EECCDB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOSChineseStringCompare_Example/Pods-DOSChineseStringCompare_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B61F7AAFCA05493BDE4063DC /* Check Pods Manifest.lock */ = {
@@ -460,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -509,6 +541,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DOSChineseStringCompare/DOSChineseStringCompare-Prefix.pch";
 				INFOPLIST_FILE = "DOSChineseStringCompare/DOSChineseStringCompare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -524,6 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DOSChineseStringCompare/DOSChineseStringCompare-Prefix.pch";
 				INFOPLIST_FILE = "DOSChineseStringCompare/DOSChineseStringCompare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

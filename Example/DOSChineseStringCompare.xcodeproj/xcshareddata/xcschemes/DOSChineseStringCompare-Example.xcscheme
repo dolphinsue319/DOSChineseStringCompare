@@ -27,8 +27,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B38221C791836EC2B2306A0"
-               BuildableName = "libPods-DOSChineseStringCompare_Tests-Specta.a"
+               BlueprintIdentifier = "8D8E2669E842E3620BB7A482"
+               BuildableName = "Specta.framework"
                BlueprintName = "Pods-DOSChineseStringCompare_Tests-Specta"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
@@ -41,8 +41,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE59A3D176963CF2B37D65A5"
-               BuildableName = "libPods-DOSChineseStringCompare_Tests-Expecta.a"
+               BlueprintIdentifier = "DDF7A25EB7F92FC4676264EA"
+               BuildableName = "Expecta.framework"
                BlueprintName = "Pods-DOSChineseStringCompare_Tests-Expecta"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>

@@ -1,5 +1,5 @@
 PODS:
-  - DOSChineseStringCompare (0.1.0)
+  - DOSChineseStringCompare (1.0.2)
   - Expecta (1.0.0)
   - Specta (1.0.2)
 
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DOSChineseStringCompare: fdfdbe5b4f7f4611c7a6551eb60f6fdf3ecf21fb
+  DOSChineseStringCompare: 7293b04864f37273cb00f0918038748192a526c3
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
