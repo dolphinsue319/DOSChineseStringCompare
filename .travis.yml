@@ -13,6 +13,7 @@ before_install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 - cd Example
 - pod install
+- cd ..
 script:
 #- xctool -scheme DOSChineseStringCompare-Example -sdk iphonesimulator test
 - xctool -workspace Example/DOSChineseStringCompare.xcworkspace -scheme DOSChineseStringCompare-Example -sdk iPhonesimulator -destination 'platform=iOS Simulator,name=iPhone6'
