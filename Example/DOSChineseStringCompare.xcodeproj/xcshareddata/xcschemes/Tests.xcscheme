@@ -38,6 +38,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6003F5AD195388D20070C39A"
+            BuildableName = "DOSChineseStringCompare_Tests.xctest"
+            BlueprintName = "DOSChineseStringCompare_Tests"
+            ReferencedContainer = "container:DOSChineseStringCompare.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
