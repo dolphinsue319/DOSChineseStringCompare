@@ -11,6 +11,7 @@ xcode_scheme: Tests
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+- cd Example
 - pod install
 script:
 - xctool -scheme DOSChineseStringCompare-Example -sdk iphonesimulator test
