@@ -3,7 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-xcode_workspace: Example/DOSChineseStringCompare.xcodeproj
+xcode_workspace: Example/DOSChineseStringCompare.xcworkspace
 xcode_scheme: Tests
 #podfile: Example/Podfile
 
