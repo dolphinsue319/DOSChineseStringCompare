@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Class/*'
+  s.source_files = 'Class/*.{h,m}'
   #s.resource_bundles = {
   #  'DOSChineseStringCompare' => ['Pod/Assets/*.png']
   #}
