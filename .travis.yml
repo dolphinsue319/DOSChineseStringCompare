@@ -6,7 +6,7 @@ language: objective-c
 xcode_workspace: Example/DOSChineseStringCompare.xcworkspace
 xcode_scheme: Tests
 xcode_sdk: iphonesimulator
-#podfile: Example/Podfile
+podfile: Example/Podfile
 
 cache: cocoapods
 before_install:
