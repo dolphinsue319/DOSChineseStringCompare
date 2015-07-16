@@ -12,6 +12,6 @@ cache: cocoapods
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-- cd Example
+#- cd Example
 - pod install
-- cd ..
+#- cd ..
