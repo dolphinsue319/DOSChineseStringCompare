@@ -2,12 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
  use_frameworks!
 
 target 'DOSChineseStringCompare_Example', :exclusive => true do
-  pod "DOSChineseStringCompare", :path => "../"
+  pod 'DOSChineseStringCompare', :path => '..'
 end
 
 target 'DOSChineseStringCompare_Tests', :exclusive => true do
-  pod "DOSChineseStringCompare", :path => "../"
-
+  pod 'DOSChineseStringCompare', :path => '..'
   pod 'Specta'
   pod 'Expecta'
 end
