@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
   s.license          = 'MIT'
   s.author           = { "dolphinsue319" => "dolphinsue@mail2000.com.tw" }
-  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.5" }
+  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.6" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = './Class/*.{h,m}'
+  s.source_files = 'Pod/Classes/**/*'
   #s.resource_bundles = {
   #  'DOSChineseStringCompare' => ['Pod/Assets/*.png']
   #}
