@@ -13,16 +13,14 @@ Pod::Spec.new do |s|
   s.summary          = "這是個對中文字排序的 pod"
   s.description      = "這是個對中文字排序的 pod，可以依照注音、筆畫、拼音或 Unihan 碼排序"
   s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "dolphinsue319" => "dolphinsue@mail2000.com.tw" }
-  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.4" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.5" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Class/*.{h,m}'
+  s.source_files = './Class/*.{h,m}'
   #s.resource_bundles = {
   #  'DOSChineseStringCompare' => ['Pod/Assets/*.png']
   #}
