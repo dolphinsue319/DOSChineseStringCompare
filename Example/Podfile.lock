@@ -1,20 +1,20 @@
 PODS:
-  - DOSChineseStringCompare (1.0.4)
+  - DOSChineseStringCompare (1.0.5)
   - Expecta (1.0.0)
   - Specta (1.0.2)
 
 DEPENDENCIES:
-  - DOSChineseStringCompare (from `..`)
+  - DOSChineseStringCompare (from `../`)
   - Expecta
   - Specta
 
 EXTERNAL SOURCES:
   DOSChineseStringCompare:
-    :path: ".."
+    :path: ../
 
 SPEC CHECKSUMS:
-  DOSChineseStringCompare: 4a7f5fa76d8f8e4362aead7c1cd98fc8c9d46ddd
+  DOSChineseStringCompare: 22fde4471ac4868cb604eb1dd786d88101deed89
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.0

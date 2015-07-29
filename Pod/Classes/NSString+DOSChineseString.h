@@ -42,4 +42,6 @@ typedef NS_ENUM(NSInteger, DOSChineseStringCompareType){
  *  @return NSComparisonResult
  */
 - (NSComparisonResult)DOSCompareString:(NSString *)string compareType:(DOSChineseStringCompareType)compareType isAscending:(BOOL)isAscending;
+
+- (NSUInteger)DOSCountOfStroke;
 @end

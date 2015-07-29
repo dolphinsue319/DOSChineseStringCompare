@@ -8,6 +8,7 @@
 
 // https://github.com/Specta/Specta
 #import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
 #import "NSString+DOSChineseString.h"
 
 SpecBegin(InitialSpecs)
@@ -57,6 +58,11 @@ describe(@"these will pass", ^{
             return [string1 DOSCompareString:string2 compareType:DOSChineseStringCompareTypeUnihan isAscending:NO];
         }];
         expect(sortedArray).to.equal(@[@"二", @"三", @"一"]);
+    });
+    it(@"this should be 10 strokes", ^{
+        NSString *string = @"馬";
+        NSUInteger stroke = [string DOSCountOfStroke];
+        expect(stroke).to.equal(10);
     });
 });
 

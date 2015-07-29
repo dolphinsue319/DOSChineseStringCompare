@@ -9,13 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "DOSChineseStringCompare"
-  s.version          = "1.0.5"
-  s.summary          = "這是個對中文字排序的 pod"
-  s.description      = "這是個對中文字排序的 pod，可以依照注音、筆畫、拼音或 Unihan 碼排序"
+  s.version          = "1.0.7"
+  s.summary          = "這是個對中文字排序及算筆畫的的 pod"
+  s.description      = "這是個對中文字排序的 pod，可以依照注音、筆畫、拼音或 Unihan 碼排序。還可以回傳某個中文字是幾劃。"
   s.homepage         = "https://github.com/dolphinsue319/DOSChineseStringCompare"
   s.license          = 'MIT'
   s.author           = { "dolphinsue319" => "dolphinsue@mail2000.com.tw" }
-  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.6" }
+  s.source           = { :git => "https://github.com/dolphinsue319/DOSChineseStringCompare.git", :tag => "1.0.7" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

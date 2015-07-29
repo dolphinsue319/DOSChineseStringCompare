@@ -9,9 +9,30 @@
 #import "NSString+DOSChineseString.h"
 
 @implementation NSString (DOSChineseString)
++(NSArray *)DOSIndexStrings{
+    static NSArray *_titles;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _titles = @[
+                @"一", @"二", @"三", @"太", @"正",
+                @"米", @"言", @"門", @"音", @"馬",
+                @"魚", @"黃", @"鼠", @"鼻", @"龜",
+                @"龍", @"優", @"壘", @"懲", @"勸",
+                @"儷", @"聾", @"體", @"靈", @"鑰",
+                @"鑷", @"鑼", @"鑿", @"鸛", @"驫",
+                @"灩", @"籲", @"鱻", @"䴑", @"齾",
+                @"䨺", @"鬻", @"38", @"靐", @"龘"];
+    });
+    return _titles;
+}
+- (void)assertionCheck{
+    NSAssert(self, @"string 不可為 nil");
+    NSAssert(self.length == 1, @"一次只能一個字");
+}
 - (NSComparisonResult)DOSCompareString:(NSString *)string compareType:(DOSChineseStringCompareType)compareType isAscending:(BOOL)isAscending {
+    [self assertionCheck];
     NSAssert(string, @"string 不可為 nil");
-
+    NSAssert(string.length == 1, @"一次只能一個字");
     NSString *sortType = @"pinyin";
     switch (compareType) {
         case DOSChineseStringCompareTypePinyin:
@@ -43,5 +64,18 @@
     } else {
         return result;
     }
+}
+-(NSUInteger)DOSCountOfStroke {
+    [self assertionCheck];
+    NSArray *indexes = [NSString DOSIndexStrings];
+    for (NSString *index in indexes) {
+        if (![index isEqualToString:@"38"]) {
+            NSComparisonResult result = [self DOSCompareString:index compareType:DOSChineseStringCompareTypeStroke isAscending:YES];
+            if (result == NSOrderedSame) {
+                return [indexes indexOfObject:index] + 1;
+            }
+        }
+    }
+    return 0;
 }
 @end
