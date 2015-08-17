@@ -10,7 +10,13 @@ xcode_sdk: iphonesimulator
 
 cache: cocoapods
 before_install:
-- gem install cocoapods # Since Travis is not always on latest version
+- export LANG=en_US.UTF-8
+- env
+- locale
+- gem install cocoapods --quiet
+- pod --version
+- pod setup --silent
+- pod repo update --silent
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 - cd Example
 - pod install
